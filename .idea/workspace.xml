@@ -11,6 +11,13 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -146,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597543276432</updated>
-      <workItem from="1597543277681" duration="2201000" />
+      <workItem from="1597543277681" duration="26159000" />
     </task>
     <servers />
   </component>
@@ -157,6 +164,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597554113186">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1597554113186" />
     <state x="637" y="167" key="EnvironmentVariablesDialog" timestamp="1597543354473">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -165,13 +176,17 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597543384161" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1597543386104">
+    <state x="277" y="62" key="SettingsEditor" timestamp="1597564121603">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1597543386104" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1597545276729">
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1597564121603" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1597558199532">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1597545276729" />
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1597558199532" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1597570947306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1597570947306" />
   </component>
 </project>

@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'first_name', 'last_name', 'email', 'password', 'role_id',
     ];
 
     /**
@@ -36,4 +36,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function students()
+    {
+        return User::query()->where('role_id', 1)->get();
+    }
+
+    public static function professors()
+    {
+        return User::query()->where('role_id', 2)->get();
+    }
+
+    public function lectures()
+    {
+        return $this->belongsToMany(Lecture::class,'lecture_user','student_id','lecture_id');
+    }
 }
